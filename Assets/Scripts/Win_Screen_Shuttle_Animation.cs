@@ -20,12 +20,10 @@ public class Win_Screen_Shuttle_Animation: MonoBehaviour {
         Vector3 new_pos = new Vector3(old_pos.x + 10f, old_pos.y + 50f, old_pos.z);
         gameObject.transform.position = new_pos;
         //Decrease the launch sounds over time
-        if (new_pos.y < 0) {
-            audio.volume -= 0.01f;
-            //Stop it if volume decreases to 0
-            if (audio.volume <= 0 && audio.isPlaying) {
-                audio.Stop();
-            }
+        audio.volume -= 0.005f;
+        //Stop it if volume decreases to 0
+        if (audio.volume <= 0 && audio.isPlaying) {
+            audio.Stop();
         }
     }
 
