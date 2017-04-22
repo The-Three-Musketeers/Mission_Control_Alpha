@@ -23,9 +23,89 @@ Platform assembly: C:\Users\kenne\Documents\Senior Design\Mission_Control_Alpha\
 Loading C:\Users\kenne\Documents\Senior Design\Mission_Control_Alpha\Build_Data\Managed\ArduinoNet.dll into Unity Child Domain
 Platform assembly: C:\Users\kenne\Documents\Senior Design\Mission_Control_Alpha\Build_Data\Managed\InputSimulator.dll (this message is harmless)
 Loading C:\Users\kenne\Documents\Senior Design\Mission_Control_Alpha\Build_Data\Managed\InputSimulator.dll into Unity Child Domain
-- Completed reload, in  0.262 seconds
+- Completed reload, in 12.010 seconds
 Platform assembly: C:\Users\kenne\Documents\Senior Design\Mission_Control_Alpha\Build_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\kenne\Documents\Senior Design\Mission_Control_Alpha\Build_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.207933 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1634 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.339004 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 356.
+Total: 0.300932 ms (FindLiveObjects: 0.023410 ms CreateObjectMapping: 0.020766 ms MarkObjects: 0.159717 ms  DeleteObjects: 0.096660 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.407410 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 325.
+Total: 0.238254 ms (FindLiveObjects: 0.022654 ms CreateObjectMapping: 0.020389 ms MarkObjects: 0.152542 ms  DeleteObjects: 0.041911 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.AudioSource:Play (ulong)
+  at UnityEngine.AudioSource.Play () [0x00000] in <filename unknown>:0 
+  at Selector.next_option () [0x00000] in <filename unknown>:0 
+  at KeyListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.AudioSource:Play (ulong)
+  at UnityEngine.AudioSource.Play () [0x00000] in <filename unknown>:0 
+  at Selector.next_option () [0x00000] in <filename unknown>:0 
+  at KeyListener.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.421003 ms
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 834.
+Total: 0.505204 ms (FindLiveObjects: 0.047575 ms CreateObjectMapping: 0.030961 ms MarkObjects: 0.241274 ms  DeleteObjects: 0.185392 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.619233 ms
+
+Unloading 197 unused Assets to reduce memory usage. Loaded Objects now: 403.
+Total: 1.659471 ms (FindLiveObjects: 0.041533 ms CreateObjectMapping: 0.035492 ms MarkObjects: 0.222773 ms  DeleteObjects: 1.358916 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.723446 ms
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 347.
+Total: 1.406491 ms (FindLiveObjects: 0.046442 ms CreateObjectMapping: 0.034359 ms MarkObjects: 0.306218 ms  DeleteObjects: 1.017960 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.434974 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 367.
+Total: 0.430443 ms (FindLiveObjects: 0.030206 ms CreateObjectMapping: 0.079292 ms MarkObjects: 0.276767 ms  DeleteObjects: 0.043421 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.421003 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 339.
+Total: 0.257133 ms (FindLiveObjects: 0.020766 ms CreateObjectMapping: 0.015103 ms MarkObjects: 0.176708 ms  DeleteObjects: 0.044177 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.305463 ms
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 843.
+Total: 0.476508 ms (FindLiveObjects: 0.041156 ms CreateObjectMapping: 0.028696 ms MarkObjects: 0.289605 ms  DeleteObjects: 0.116672 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.504449 ms
+
+Unloading 197 unused Assets to reduce memory usage. Loaded Objects now: 412.
+Total: 2.081607 ms (FindLiveObjects: 0.045309 ms CreateObjectMapping: 0.043044 ms MarkObjects: 0.272236 ms  DeleteObjects: 1.720639 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.393817 ms
+
+Unloading 99 unused Assets to reduce memory usage. Loaded Objects now: 353.
+Total: 1.141429 ms (FindLiveObjects: 0.029073 ms CreateObjectMapping: 0.023787 ms MarkObjects: 0.171422 ms  DeleteObjects: 0.916768 ms)
+
